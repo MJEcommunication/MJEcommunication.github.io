@@ -1,0 +1,568 @@
+                                        /*////////////////////////////////////////////////////////////*/                                        
+                                        /*//////////////////// Ensemble des pages ////////////////////*/   
+                                        /*////////////////////////////////////////////////////////////*/                                       
+body
+{       
+    margin:0px;
+    height:200vh;
+}
+
+        /*////////// En-tête //////////*/
+
+.upper
+{
+    height:15vh;
+    background-color:#e9f2f9;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo
+{
+    height:10vh;
+    padding-left:2vw;
+    padding-top:1vh;
+}
+
+.selection
+{
+    display:flex;
+    padding-right:3vw;
+}
+
+.accueil
+{
+    color:#e84938;
+    font-size:2vw;
+    padding:2vw;
+}
+
+.realisations
+{
+    color:#1b325f;
+    font-size:2vw;
+    padding:2vw;
+}
+
+.contact
+{
+    color:#3a89c9;
+    font-size:2vw;
+    padding:2vw;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.linkedin
+{
+    text-decoration:underline;
+    color:white;
+}
+        /*////////// Bas de page //////////*/
+
+.downer
+{
+    justify-content:space-between;
+    height:15vh;
+    display:flex;
+    align-items:center;
+    background-color:#e9f2f9;
+}
+        
+.titre_mention
+{
+    color:#e84938;
+    font-size:2vw;
+    padding-left:1vw;
+}
+        
+.mention
+{
+    padding-left:2vw;
+    font-size:1vw;
+    max-width:40vh;
+}
+        
+.reseaux
+{
+    height:8vh;
+    padding-right:2vw;
+}
+
+                                        /*/////////////////////////////////////////////////*/                                        
+                                        /*//////////////////// Accueil ////////////////////*/   
+                                        /*/////////////////////////////////////////////////*/
+.mainA1
+{
+    display:flex;
+    height:85vh;
+}
+                                        
+
+.mainA1_grid
+{
+    display:grid;
+    grid-template-columns:10% 35% 10% 35% 10%;
+    grid-template-rows:5vh 15vh 8vh 15vh 8vh 15vh 5vh;
+    text-align:center;
+    font-size:2vh;
+    color:white;
+}
+
+.line_simple
+{
+    width:5vw;
+    height:0.2vh;
+    background-color:white;
+    justify-self:center;
+    margin-left:35%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+.line_grand
+{
+    width:5vw;
+    height:0.2vh;
+    background-color:white;
+    justify-self:center;
+    margin-left:43%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+        /*////////// Partie web //////////*/
+
+.mainA1_web
+{
+    width:50%;
+    background-color:#3a89c9;
+    height:100%;
+}
+
+.mainA1_web_titre
+{
+    text-align:center;
+    padding-top:3%;
+    font-size:3vw;
+}
+
+.mainA1_web_grid_block_cms
+{
+    background-color:#1b325f;
+    grid-area:2/2 /3/3;
+    box-shadow: 6px 5px 5px white;
+    padding:1.5vh;
+    font-size:1.65vh;
+}
+
+.mainA1_web_grid_block_devLog
+{
+    background-color:#1b325f;
+    grid-area:2/4 /3/5; 
+    box-shadow: 6px 5px 5px white;
+    padding:1.5vh;
+    font-size:1.65vh;
+}
+
+.mainA1_web_grid_block_ref
+{
+    background-color:#1b325f;
+    grid-area:4/2 /5/3; 
+    box-shadow: 6px 5px 5px white;
+    padding:1.5vh;
+    font-size:1.65vh;
+}
+
+.mainA1_web_grid_block_reseaux
+{
+    background-color:#1b325f;
+    grid-area:4/4 /5/5; 
+    box-shadow: 6px 5px 5px white;
+    padding:1.5vh; 
+    font-size:1.65vh;
+}
+
+.mainA1_web_grid_block_devWeb
+{
+    background-color:#1b325f;
+    grid-area:6/2 /7/5; 
+    box-shadow: 6px 5px 5px white;  
+    padding:1.5vh;
+    font-size:2vh;
+}
+
+        /*////////// Partie Com //////////*/
+
+
+.com_titre
+{
+    font-size:3vw;
+    text-align:center;
+    padding-top:3%;
+}
+
+.mainA1_com
+{
+    width:50%;
+    height:100%;
+}
+
+.mainA1_com_grid_block_logo
+{
+    background-color:#3a89c9;
+    grid-area:2/2 /3/3;
+    box-shadow: 6px 5px 5px black;
+    padding:1.5vh;
+    font-size:1.55vh;
+}
+
+.mainA1_com_grid_block_info
+{
+    background-color:#3a89c9;
+    grid-area:2/4 /3/5; 
+    box-shadow: 6px 5px 5px black;
+    padding:1.5vh;
+    font-size:1.65vh;
+}
+
+.mainA1_com_grid_block_webd
+{
+    background-color:#3a89c9;
+    grid-area:4/2 /5/3; 
+    box-shadow: 6px 5px 5px black;
+    padding:1.5vh;
+    font-size:1.65vh;
+}
+
+.mainA1_com_grid_block_photo
+{
+    background-color:#3a89c9;
+    grid-area:4/4 /5/5;  
+    box-shadow: 6px 5px 5px black;
+    padding:1.2vh;
+    font-size:1.55vh;
+}
+
+.mainA1_com_grid_block_redac
+{
+    background-color:#3a89c9;
+    grid-area:6/2 /7/5;  
+    box-shadow: 6px 5px 5px black; 
+    padding:1.45vh;
+    font-size:2vh;
+}
+
+        /*////////////  Partie QSN?  /////////////*/
+
+.mainA2
+{
+    background-image: url(fond.png);
+    background-size:100% 100%;
+    display:flex;
+}
+
+        /*////////// Partie QSN? gauche //////////*/
+
+.mainA2_margot
+{
+    height:85vh;
+    width:33.3vw;
+    color:white;
+    font-size:3vh;
+    text-align:center;
+}
+
+.margot_avatar
+{
+    height:21vh;
+    margin-top:15vh;
+}
+
+.margot_contenu
+{
+    margin:3vh;
+}
+
+        /*////////// Partie QSN? centre //////////*/
+
+.mainA2_centre
+{
+    height:85vh;
+    width:33.3vw;
+    text-align:center;
+}
+
+.titre_qsn
+{
+    padding-top:4vh;
+    font-size:6vh;
+}
+
+.qsn_contenu
+{
+    padding:2vh;
+    font-size:2.5vh;
+}
+
+.julian_avatar
+{
+    height:20vh;
+    padding-top:13vh;
+}
+
+.julian_contenu
+{
+    padding:0.5vh;
+    color:white;
+    font-size:3vh;
+}
+
+        /*////////// Partie QSN? droite //////////*/
+
+.mainA2_esteban
+{
+    height:85vh;
+    width:33.3vw;
+    color:white;
+    font-size:2.8vh;
+    text-align:center;
+}
+        
+.esteban_avatar
+{
+    height:21vh;
+    margin-top:15vh;
+}
+        
+.esteban_contenu
+{
+    margin:3vh;
+}
+
+                                        /*/////////////////////////////////////////////////*/                                        
+                                        /*//////////////////// Contact ////////////////////*/   
+                                        /*/////////////////////////////////////////////////*/
+
+        /*////////// Partie 1 //////////*/
+
+.main1B
+{
+   justify-content:center;
+   display:flex; 
+   height:85vh;
+   font-size:3vh;
+}
+
+.main1B_titre
+{
+    font-size:4vh;
+    margin:7vh;
+    color:#e84938;
+}
+
+.main1_nom
+{
+    position:absolute;
+    top:30vh;
+    left:30vw;
+}
+
+.main1_prenom
+{
+    position:absolute;
+    top:30vh;
+    left:58vw;
+}
+
+.main1_mail
+{
+    position:absolute;
+    top:40vh;
+    left:30vw;
+}
+
+.main1_tel
+{
+    position:absolute;
+    top:40vh;
+    left:58vw;
+}
+
+.main1_message
+{
+    position:absolute;
+    top:50vh;
+    left:20vw;
+}
+
+        /*////////// Partie 2 //////////*/
+
+.main2B
+{
+    height:85vh;
+    display:flex;
+}
+
+.main2B_margot
+{
+    height:85vh;
+    width:33.3vw;
+    background-color:#1b325f;
+}
+
+.main2B_julian
+{
+    height:85vh;
+    width:33.3vw;
+    background-color:#e84938;
+}
+
+.main2B_esteban
+{
+    height:85vh;
+    width:33.3vw;
+    background-color:#3a89c9;
+}
+
+.main2b_avatar  /* Les trois */
+{
+    height:30vh;
+    padding:6vh;
+    padding-left:10vw;
+}
+
+.main2b_contenu
+{
+    padding:0vw 2vw 2vw 2vw;
+    font-size:3vh;
+    text-align:center;
+    color:white;
+}
+
+                                        /*//////////////////////////////////////////////////////*/                                        
+                                        /*//////////////////// Réalisations ////////////////////*/   
+                                        /*//////////////////////////////////////////////////////*/
+
+.mainC
+{
+    height:170vh;
+    display:grid;
+    grid-template-rows:4% 20% 4% 20% 4% 20% 4% 20% 4%;
+}
+
+        /*////////// Web //////////*/
+
+.mainC_web
+{
+    grid-row:2/3;
+    border:solid 1vh #e84938;
+    margin-left:1vw;
+    margin-right:1vw;
+    overflow:hidden;
+}
+
+.mainC_web_triangle
+{
+    background-color:#e84938;
+    height:50vh;
+    width:50vh;
+    transform:translateX(35vw) translateY(-45vh) rotate(45deg);
+}
+
+.mainC_web_titre
+{
+    position:absolute;
+    top:23vh;
+    left:46.4vw;
+    font-size:4vh;
+    color:white;
+}
+
+        /*////////// Photographie //////////*/
+
+.mainC_photo
+{
+    grid-row:4/5;
+    border:solid 1vh #1b325f;
+    margin-left:1vw;
+    margin-right:1vw;
+    overflow:hidden;
+}
+
+.mainC_photo_triangle
+{
+    background-color:#1b325f;
+    height:50vh;
+    width:50vh;
+    transform:translateX(35vw) translateY(-45vh) rotate(45deg);
+}
+
+.mainC_photo_titre
+{
+    position:absolute;
+    top:64vh;
+    left:43vw;
+    font-size:3vh;
+    color:white;
+}
+
+        /*////////// Rédaction //////////*/
+
+.mainC_redac
+{
+    grid-row:6/7;
+    border:solid 1vh #3a89c9;
+    margin-left:1vw;
+    margin-right:1vw;
+    overflow:hidden;
+}
+
+.mainC_redac_triangle
+{
+    background-color:#3a89c9;
+    height:50vh;
+    width:50vh;
+    transform:translateX(35vw) translateY(-45vh) rotate(45deg);
+}
+
+.mainC_redac_titre
+{
+    position:absolute;
+    top:105vh;
+    left:44.5vw;
+    font-size:3vh;
+    color:white;
+}
+
+        /*////////// Infographie //////////*/
+
+.mainC_info
+{
+    grid-row:8/9;
+    border:solid 1vh #9cc4e4;
+    margin-left:1vw;
+    margin-right:1vw;
+    overflow:hidden;
+}
+
+.mainC_info_triangle
+{
+    background-color:#9cc4e4;
+    height:50vh;
+    width:50vh;
+    transform:translateX(35vw) translateY(-45vh) rotate(45deg);
+}
+
+.mainC_info_titre
+{
+    position:absolute;
+    top:146vh;
+    left:43.5vw;
+    font-size:3vh;
+    color:white;
+}
